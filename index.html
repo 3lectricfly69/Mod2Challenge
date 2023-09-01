@@ -4,21 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <nav class="coolSubtitleHere">
-        <h1>Marlie Ford</h1>
+    <nav class="grid navbar">
+        <h1 class="portfolioTitle">Marlie Ford</h1>
+        <div class="navLinks">
         <a href="#aboutMe">About Me</a>
-        <a href="#work"></a>
-        <a href="#contactInfo"></a>
-        <a href="#resume"></a>
+        <a href="#work">Work</a>
+        <a href="#contactInfo">Contact Info</a>
+        <a href="#resume">Resume</a>
+        </div>
     </nav>
-
         <main class= "container">
             <section class="aboutWrap">
+                <div>
                 <h2 id="aboutMe">About Me</h2>
+                <img src="./images/profileImg.png" class="profileImg">
+                </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                         Eligendi illo quae ducimus dolores, perferendis reiciendis 
@@ -26,39 +31,40 @@
                         veritatis officiis molestiae rerum, molestias quisquam ad natus 
                         minus?</p>
                 </div>
+            </section> 
+            <section id="work" class="work">
+                <h3 class="workTitle" >Work</h3>
+                <div class="workLinks">
+                    <a href="https://www.instagram.com/marlieford/">
+                        <img class="igLinkImg" src="./images/instagram.JPEG">
+                    </a>
+                    <a href="https://3lectricfly69.github.io/Mod1Challenge/">
+                        <img class="mod1Challenge" src="./images/Screenshot(1).png">
+                    </a>
+                </div> 
             </section>
-            
-        <main class="container">
-            <section class="work">
-            <h3 id="work"></h3>
-                <a href="https://www.instagram.com/marlieford/">
-                    <img class="igLinkImg" src="./images/instagram.JPEG">
+            <section id="resume">
+                <a class="resumeContent" href="./resume/resume.pdf">
+                    <p>Resume</p>
+                    <img class="resumeLinkImg" src="./images/resume.jpeg" alt="resumeImg">
                 </a>
             </section>
         </main>
-        <main class="container">
-            <section class="resume">
-                <a href="./resume/resume.pdf">Resume</a>
-            </section>
-        <main>
-                <div>
-                <h3>Marketing Refactor</h3>
-                <p></p>
-                <h3>Personal Portfolio</h3>
-                <p></p>
-                <h3>Pre-Work</h3>
-                <h3>Place Holder</h3>
-                </div>
-            </section>
-        </main>
-        <main>
     <footer id="contactInfo">
-        <div><p>1.615.710.1483</p></div>
-        <div><p>jive.hive@outlook.com</p></div>
-        <div><a href="http://www.linkedin.com/in/marlie-ford/">LinkedIn</a></div>
-        <div><a href= "http://open.spotify.com/user/marlieford?si=S1fXcuhDQN2f45LRfnI2Eg">Spotify</a></div>
-        <div><a href= "https://twitter.com/marlie4d">Twitter</a></div>
+        <div class="phoneNumber"><p>1.615.710.1483</p></div>
+        <div class="email"><p>jive.hive@outlook.com</p></div>
+        <div><a href="http://www.linkedin.com/in/marlie-ford/">
+            <p class="linkedInLabel">LinkedIn</p>
+            <img class="linkedInImg" src="./images/linkedinImg.jpg">
+        </a></div>
+        <div><a href= "http://open.spotify.com/user/marlieford?si=S1fXcuhDQN2f45LRfnI2Eg">
+            <p class="spotifyLabel" >Spotify</p>
+            <img class="spotifyImg" src="./images/spotifyimg.png">
+        </a></div>
+        <div><a href= "https://twitter.com/marlie4d">
+            <p class="twitterLabel" >Twitter</p>
+            <img class="twitterImg" src="./images/twitterimg.jpg">
+        </a></div>
     </footer>
-        </main>
 </body>
 </html>
